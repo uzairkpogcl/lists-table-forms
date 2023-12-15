@@ -124,7 +124,7 @@ input:focus{
 } */
 
 /* STYLING FIELDSET AND LEGEND */
-
+/* 
 fieldset {
     width: 350px;
     border: 1px solid #dcdcdc;
@@ -137,4 +137,9 @@ fieldset {
     border-radius: 10px;
     padding: 10px 20px;
     text-align: left;
-    text-transform: uppercase;}
+    text-transform: uppercase;} */
+    /* CURSOR STYLES */
+    #submit-btn:hover{
+        cursor: help;
+
+    }
