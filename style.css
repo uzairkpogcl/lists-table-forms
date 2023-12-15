@@ -70,9 +70,71 @@
  */
 
  /* EMPTY CELLS */
- td {
+ /* td {
     border: 1px solid #0088dd;
     padding: 15px;}
     table {
     empty-cells: show;}
-    
+     */
+
+     /* GAPS BETWEEN CELLS */
+     /* td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;}
+        table {
+        border-collapse: collapse;} */
+
+        /* STYLING FORMS */
+        #github{
+            margin-top: 5px;
+        }
+        
+        /* input{
+            font-size: xx-large;
+            color:red;
+            background-color: black;
+            color: white;
+        } */
+
+/* input{
+    border: 5px solid red;
+    border-radius: 10px;
+} */
+/* input:hover{
+background-color: lightblue;
+}
+input:focus{
+    border: 5px solid red;
+    outline: none;
+} */
+
+
+/* #email{
+    background-image: url(./email.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+#github{
+    background-image: url(./git.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+} */
+
+/* STYLING FIELDSET AND LEGEND */
+
+fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;}
+    legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;}
