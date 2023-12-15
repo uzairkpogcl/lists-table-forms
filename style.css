@@ -24,4 +24,55 @@
             list-style-position: inside;
         } */
 
-        
+        /* LIST SHORTHAND */
+        /* ul{
+            list-style: inside square;
+        } */
+
+        /* TABLES PRPPERTIES */
+
+        /* table{
+            width: 600px;
+            padding: 20px;
+            text-transform: capitalize;
+           border-top: 1px solid red; 
+          
+           border-bottom: 1px solid green;            
+                     }*/
+             
+        /* table, td, th{
+        border: 1px solid red;
+        border-collapse: collapse;
+        text-align: left;
+            
+    }             
+     table{
+        background-color: red;
+    } 
+
+     tr:hover{
+        background-color: wheat;
+        cursor: pointer;
+    }
+
+    td{
+        padding: 10px;
+    }
+
+     th{
+    background-color: black;
+    color: white;
+    } 
+     .even{
+        background-color: black;
+        color: white;
+    } 
+ */
+
+ /* EMPTY CELLS */
+ td {
+    border: 1px solid #0088dd;
+    padding: 15px;}
+    table {
+    empty-cells: show;}
+    
